@@ -24,13 +24,13 @@ int conca(int n1, int n2)
 {
 	stringstream ss;
 	ss << n1;
-	string a = ss.str();
+	string a = ss.str(); // string to int
 	stringstream ss1;
 	ss1 << n2;
 	string b = ss1.str();
 	string c = a+b;
 	
-	stringstream geek(c);
+	stringstream geek(c);  // int to string
 	int x;
 	geek >> x;
 	return x;
